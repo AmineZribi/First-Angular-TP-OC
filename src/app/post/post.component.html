@@ -1,0 +1,14 @@
+<div [ngClass]="getColor()"> 
+
+<h3  style="float: left;">{{ Title }}</h3> <h5 style="float: right;">{{CreationDate | date : 'short'}}</h5>
+
+<br>
+<br>
+<br>
+<p>{{ Content}}</p>
+<button class="btn btn-success" (click)="isLiked()">Love It!</button><button class="btn btn-danger" (click)="isDisliked()"> Dont Love It!</button>
+
+
+
+
+</div>
